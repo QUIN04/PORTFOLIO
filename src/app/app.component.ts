@@ -1,5 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
+import {CommonModule} from '@angular/common';
+import { ProjDemosComponent } from "./pages/proj-demos/proj-demos.component";
+import { AboutComponent } from "./pages/about/about.component";
+import { HomeComponent } from "./pages/home/home.component";
 
 @Component({
   selector: 'app-root',
@@ -10,4 +14,5 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'portfolio-app';
+  
 }

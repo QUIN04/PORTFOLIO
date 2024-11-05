@@ -1,0 +1,80 @@
+.about-section {
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    display: flex; 
+    align-items: flex-start; 
+    background-color: #f9f9f9; 
+    padding: 20px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px; 
+}
+
+.image-container {
+    flex: 1;
+    max-width: 40%; 
+}
+
+.about-image {
+    width: 100%; 
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.text-container {
+    flex: 2; 
+    padding-left: 20px; 
+    color: #333; 
+}
+
+h2 {
+    color: rgb(82, 80, 80);
+    margin-bottom: 10px; 
+    font-weight: bolder;
+}
+
+h3 {
+    color: #333;
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+}
+
+p {
+    color: #555; 
+    line-height: 1.6; 
+    margin-bottom: 10px; 
+}
+
+.skills-container {
+    margin-top: 15px; 
+}
+
+.skill {
+    margin-bottom: 10px; 
+    display: flex; 
+    align-items: center; 
+}
+
+.skill span {
+    display: inline-block; 
+    width: 120px; 
+    color: #333; 
+}
+
+.progress-bar {
+    background-color: #e0e0e0; 
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%; 
+    height: 20px;
+    margin-left: 10px;
+}
+
+.progress {
+    background-color: darkgray; 
+    height: 100%; 
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    transition: width 0.5s ease; 
+    font-weight: bold; 
+}

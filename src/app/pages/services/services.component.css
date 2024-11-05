@@ -1,0 +1,47 @@
+.service-page {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.card-container {
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+
+.card {
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    padding: 20px;
+    width: 250px; 
+    margin: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s; 
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+.card-image {
+    width: 100%; 
+    border-radius: 10px; 
+}
+
+h2 {
+    color: lightgray; 
+    margin-bottom: 20px; 
+    font-weight: bolder;
+}
+
+h4 {
+    margin: 10px 0; 
+    color: #000000; 
+}
+
+p {
+    color: #000000; 
+}
